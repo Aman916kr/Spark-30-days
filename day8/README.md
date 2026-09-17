@@ -1,4 +1,4 @@
-# Day8DAGExecution
+# Day8 DAG Execution
 
 A beginner-friendly Apache Spark project that demonstrates DAG construction and Spark execution using RDD transformations, actions, partitions, stages, tasks, and shuffle boundaries.
 
@@ -29,18 +29,6 @@ The project also analyzes a `reduceByKey` pipeline and predicts the number of st
 * `count`
 * RDD lineage
 * Spark execution model
-
-## Project Structure
-
-```text
-Day8DAGExecution/
-├── build.sbt
-├── README.md
-└── src/
-    └── main/
-        └── scala/
-            └── DAGDemo.scala
-```
 
 ## Practice Tasks
 
@@ -418,17 +406,3 @@ Tasks operate on Partitions.
                        ↓
                   finalResult
 ```
-
-## Learning Outcome
-
-After completing Day 8, I can:
-
-* Explain what a DAG is in Spark.
-* Create a multi-step RDD transformation pipeline.
-* Identify shuffle boundaries.
-* Explain jobs, stages, tasks, and partitions.
-* Distinguish narrow and wide transformations.
-* Identify `reduceByKey` as a wide transformation.
-* Explain why `reduceByKey` creates a shuffle boundary.
-* Predict the conceptual number of stages in a simple `reduceByKey` pipeline.
-* Understand how Spark converts an action into jobs, stages, and tasks.
