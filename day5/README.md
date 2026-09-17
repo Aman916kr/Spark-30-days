@@ -1,4 +1,4 @@
-# Day5TransformationsActions
+# Day5 Transformations & Actions
 
 A beginner-friendly Apache Spark project that demonstrates RDD Transformations and Actions by analyzing application log data.
 
