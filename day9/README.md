@@ -1,4 +1,4 @@
-# Day9PairRDD
+# Day9 PairRDD
 
 A beginner-friendly Apache Spark project that demonstrates Pair RDDs using key-value data and Spark operations such as `reduceByKey`, `groupByKey`, and `mapValues`.
 
@@ -24,18 +24,6 @@ The project analyzes bank transactions and calculates revenue by account, produc
 * Department-level aggregation
 * `reduceByKey` vs `groupByKey`
 * Bank transaction analysis
-
-## Project Structure
-
-```text
-Day9PairRDD/
-├── build.sbt
-├── README.md
-└── src/
-    └── main/
-        └── scala/
-            └── PairRDDDemo.scala
-```
 
 ## Practice Tasks
 
@@ -297,70 +285,3 @@ A104 -> ₹75000
 
 Total revenue: ₹240000
 ```
-
-> **Note:** The `reduceByKey` and `groupByKey` execution times are runtime-dependent and should be replaced with the actual values from your terminal. With only 10 records, the timing should not be considered a meaningful performance benchmark.
-
-## Pair RDD Flow
-
-```text
-Bank Transactions
-       ↓
-Transaction RDD
-       ↓
-map()
-       ↓
-(Account ID, Amount)
-       ↓
-reduceByKey()
-       ↓
-Account Totals
-```
-
-For product revenue:
-
-```text
-Transactions
-       ↓
-(Product, Amount)
-       ↓
-reduceByKey()
-       ↓
-Product Revenue
-```
-
-For department revenue:
-
-```text
-Transactions
-       ↓
-(Department, Amount)
-       ↓
-reduceByKey()
-       ↓
-Department Revenue
-```
-
-## Key Learning
-
-* A Pair RDD stores data as key-value pairs.
-* `reduceByKey` combines values belonging to the same key.
-* `groupByKey` groups values belonging to the same key.
-* `mapValues` transforms values without changing the keys.
-* `reduceByKey` can perform local aggregation before shuffle.
-* `groupByKey` can cause more data to be transferred during shuffle.
-* Pair RDDs are useful for key-based aggregation.
-* Bank transactions can be aggregated efficiently by account ID.
-
-## Learning Outcome
-
-After completing Day 9, I can:
-
-* Create key-value Pair RDDs.
-* Use `reduceByKey`.
-* Use `groupByKey`.
-* Use `mapValues`.
-* Calculate revenue by product.
-* Calculate revenue by department.
-* Explain the difference between `reduceByKey` and `groupByKey`.
-* Explain why `reduceByKey` is generally preferred for simple aggregations.
-* Aggregate bank transactions by account ID.
