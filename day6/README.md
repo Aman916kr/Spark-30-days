@@ -1,4 +1,4 @@
-# Day6WordCount
+# Day6 Word Count
 
 A beginner-friendly Apache Spark project that demonstrates the classic Word Count program using RDD transformations and `reduceByKey`.
 
