@@ -1,4 +1,4 @@
-# Day7ImmutabilityLineage
+# Day7 Immutability Lineage
 
 A beginner-friendly Apache Spark project that demonstrates RDD immutability, lineage, and fault tolerance using a multi-step RDD transformation chain.
 
