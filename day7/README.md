@@ -27,18 +27,6 @@ The project also conceptually simulates executor loss and explains how Spark can
 * `count`
 * `toDebugString`
 
-## Project Structure
-
-```text
-Day7ImmutabilityLineage/
-├── build.sbt
-├── README.md
-└── src/
-    └── main/
-        └── scala/
-            └── LineageDemo.scala
-```
-
 ## Practice Tasks
 
 ### 1. Multi-Step RDD Transformation Chain
