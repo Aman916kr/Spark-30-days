@@ -1,0 +1,10 @@
+101,Notebook,2,100
+102,Pen,5,20
+103,Notebook,3,100
+104,Pencil,10,10
+105,Pen,4,20
+106,Marker,2,50
+107,Pencil,5,10
+108,Notebook,1,100
+109,Marker,3,50
+110,Pen,2,20

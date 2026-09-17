@@ -1,0 +1,4 @@
+Scala is used for Spark applications
+Spark can process large datasets
+RDDs are distributed collections
+Spark supports local and cluster execution
