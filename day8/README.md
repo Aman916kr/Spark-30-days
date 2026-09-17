@@ -375,34 +375,3 @@ Job is divided into Stages.
 Stages are divided into Tasks.
 Tasks operate on Partitions.
 ```
-
-> **Note:** The exact `RDD LINEAGE` output and internal RDD information can vary between Spark versions and executions. The number of input partitions and the conceptual stage/shuffle analysis are the important results for this exercise.
-
-## DAG Diagram
-
-```text
-                    numbers
-                       |
-                       | map
-                       ↓
-                    doubled
-                       |
-                       | filter
-                       ↓
-                   filtered
-                       |
-                       | map
-                       ↓
-                  keyValueRDD
-                       |
-                       | reduceByKey
-                       ↓
-                    SHUFFLE
-                       |
-                       ↓
-                    reduced
-                       |
-                       | map
-                       ↓
-                  finalResult
-```
