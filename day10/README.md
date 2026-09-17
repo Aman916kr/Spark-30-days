@@ -24,18 +24,6 @@ The project also demonstrates how increasing the number of partitions can help o
 * Parallelism
 * Partition optimization
 
-## Project Structure
-
-```text id="74x4id"
-Day10Partitioning/
-├── build.sbt
-├── README.md
-└── src/
-    └── main/
-        └── scala/
-            └── PartitioningDemo.scala
-```
-
 ## Practice Tasks
 
 ### 1. Inspect Partition Counts
@@ -315,68 +303,3 @@ Coalesce reduces the number of partitions.
 It is useful when the dataset has too many partitions.
 Example: 4 partitions -> 2 partitions
 ```
-
-> **Note:** The exact records assigned to each partition can vary depending on Spark's partitioning behavior. The partition counts and account totals are the important deterministic results.
-
-## Partitioning Flow
-
-```text id="q8o3u6"
-Dataset
-   ↓
-RDD
-   ↓
-Inspect Partitions
-   ↓
-2 Partitions
-   ↓
-repartition(4)
-   ↓
-4 Partitions
-   ↓
-coalesce(2)
-   ↓
-2 Partitions
-```
-
-For the Pair RDD:
-
-```text id="wqf5hm"
-Transactions
-      ↓
-Pair RDD
-      ↓
-partitionBy(HashPartitioner(4))
-      ↓
-4 Key-Based Partitions
-      ↓
-reduceByKey()
-      ↓
-Account Totals
-```
-
-## Key Learning
-
-* A partition is a logical chunk of an RDD.
-* `getNumPartitions` returns the number of partitions.
-* `repartition` can increase or decrease partitions and performs a shuffle.
-* `coalesce` is commonly used to decrease the number of partitions with less data movement than a full repartition.
-* `partitionBy` partitions Pair RDDs according to their keys.
-* More partitions can provide more parallelism when resources are available.
-* Too many partitions can create unnecessary task overhead.
-* Increasing partitions does not automatically improve performance.
-* Partitioning should be selected based on data size and workload.
-
-## Learning Outcome
-
-After completing Day 10, I can:
-
-* Inspect RDD partition counts.
-* Inspect data across partitions.
-* Use `repartition`.
-* Use `coalesce`.
-* Explain when to increase partitions.
-* Explain when to decrease partitions.
-* Use `partitionBy` on a Pair RDD.
-* Explain key-based partitioning.
-* Understand the relationship between partitions and parallelism.
-* Optimize a dataset suffering from too few partitions.
