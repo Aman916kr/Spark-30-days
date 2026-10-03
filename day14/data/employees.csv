@@ -1,0 +1,7 @@
+employee_id,name,department,role,salary,bonus
+101,Alice,Engineering,Developer,75000,10000
+102,Bob,Engineering,Tester,60000,5000
+103,Charlie,HR,Manager,65000,8000
+104,David,Finance,Analyst,55000,6000
+105,Emma,Engineering,Lead,90000,15000
+106,Frank,Finance,Manager,70000,10000
