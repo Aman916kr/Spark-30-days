@@ -1,0 +1,6 @@
+customer_id,name,age,city,total_spent,orders
+101,Alice,25,Hyderabad,12000,4
+102,Bob,32,Bangalore,25000,8
+103,Charlie,45,Hyderabad,8000,2
+104,David,29,Chennai,18000,6
+105,Emma,38,Bangalore,32000,10
