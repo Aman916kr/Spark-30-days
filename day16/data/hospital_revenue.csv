@@ -1,0 +1,17 @@
+patient_id,department,doctor,service,revenue
+P001,Cardiology,Dr. Smith,Consultation,5000
+P002,Cardiology,Dr. Jones,Surgery,45000
+P003,Neurology,Dr. Brown,Consultation,4000
+P004,Orthopedics,Dr. Taylor,Surgery,35000
+P005,Cardiology,Dr. Smith,ECG,3000
+P006,Neurology,Dr. Brown,MRI,18000
+P007,Orthopedics,Dr. Taylor,Consultation,4500
+P008,Oncology,Dr. Wilson,Chemotherapy,55000
+P009,Oncology,Dr. Wilson,Consultation,6000
+P010,Cardiology,Dr. Jones,ECG,3500
+P011,Neurology,Dr. Green,Consultation,4500
+P012,Orthopedics,Dr. Lee,Surgery,40000
+P013,Oncology,Dr. Wilson,Chemotherapy,60000
+P014,Neurology,Dr. Green,MRI,20000
+P015,Cardiology,Dr. Smith,Consultation,5500
+EOF
