@@ -1,0 +1,13 @@
+sale_id,product,region,sale_date,quantity,amount
+S001,Laptop,South,2026-09-01,2,120000
+S002,Mouse,West,2026-09-01,5,2500
+S003,Keyboard,North,2026-09-02,3,4500
+S004,Monitor,South,2026-09-02,2,30000
+S005,Laptop,East,2026-10-01,1,60000
+S006,Mouse,South,2026-10-01,10,5000
+S007,Keyboard,West,2026-10-02,4,6000
+S008,Monitor,North,2026-10-02,1,15000
+S009,Laptop,South,2027-01-01,3,180000
+S010,Mouse,East,2027-01-01,8,4000
+S011,Keyboard,South,2027-01-02,2,3000
+S012,Monitor,West,2027-01-02,3,45000
