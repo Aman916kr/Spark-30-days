@@ -1,0 +1,17 @@
+student_id,student_name,course,score,exam_date
+S001,Alice,Spark,92,2026-09-01
+S002,Bob,Spark,85,2026-09-01
+S003,Charlie,Spark,92,2026-09-01
+S004,David,Spark,78,2026-09-01
+S005,Emma,Spark,88,2026-09-01
+S006,Frank,Scala,95,2026-09-02
+S007,Grace,Scala,89,2026-09-02
+S008,Henry,Scala,95,2026-09-02
+S009,Ivy,Scala,82,2026-09-02
+S010,Jack,Scala,76,2026-09-02
+S011,Kate,Databricks,91,2026-09-03
+S012,Leo,Databricks,87,2026-09-03
+S013,Mia,Databricks,91,2026-09-03
+S014,Noah,Databricks,80,2026-09-03
+S015,Olivia,Databricks,85,2026-09-03
+
