@@ -1,0 +1,11 @@
+booking_id,guest_name,hotel_name,city,room_type,check_in,check_out,amount,status
+B001,Alice,Grand Palace,Hyderabad,Deluxe,2026-09-01,2026-09-03,12000,Confirmed
+B002,Bob,Lake View,Bengaluru,Standard,2026-09-02,2026-09-04,8000,Confirmed
+B003,Charlie,Grand Palace,Hyderabad,Suite,2026-09-05,2026-09-08,25000,CheckedIn
+B004,David,Royal Inn,Mumbai,Deluxe,2026-09-07,2026-09-09,15000,Cancelled
+B005,Emma,Lake View,Bengaluru,Suite,2026-09-10,2026-09-13,21000,Confirmed
+B006,Frank,Royal Inn,Mumbai,Standard,2026-09-12,2026-09-14,7000,CheckedIn
+B007,Grace,Grand Palace,Hyderabad,Standard,2026-09-15,2026-09-17,9000,Confirmed
+B008,Henry,Lake View,Bengaluru,Deluxe,2026-09-18,2026-09-20,14000,Cancelled
+B009,Ivy,Royal Inn,Mumbai,Suite,2026-09-20,2026-09-23,24000,Confirmed
+B010,Jack,Grand Palace,Hyderabad,Deluxe,2026-09-25,2026-09-27,13000,CheckedIn
